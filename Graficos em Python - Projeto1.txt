@@ -1,0 +1,64 @@
+
+import matplotlib.pyplot as plt
+
+x1 = int (input("EixoX1: "))
+
+x2 = int (input("EixoX1: "))
+
+x3 = int (input("EixoX1: "))
+
+x4 = int (input("EixoX1: "))
+
+xa = [x1, x2, x3, x4]
+
+x5 = int (input("EixoX2: " ))
+
+x6 = int (input("EixoX2: "))
+
+x7 = int (input("EixoX2: "))
+
+x8 = int (input("EixoX2: "))
+
+xb = [x5, x6, x7, x8]
+
+
+y1 = int (input("EixoY1: "))
+
+y2 = int (input("EixoY1: "))
+
+y3 = int (input("EixoY1: "))
+
+y4 = int (input("EixoY1: "))
+
+ya = [y1, y2, y3, y4]
+
+y5 = int (input("EixoY2: "))
+
+y6 = int (input("EixoY2: "))
+
+y7 = int (input("EixoY2: "))
+
+y8 = int (input("EixoY2: "))
+
+yb = [y5, y6, y7, y8]
+
+#Titulo
+
+titulo = "Grafico de Barras"
+eixox = "Eixo X"
+eixoy = "Eixo Y"
+
+#Legendas
+plt.title(titulo)
+plt.xlabel(eixox)
+plt.ylabel(eixoy)
+
+plt.bar(xa, ya, label = "Grupo 1")
+plt.bar(xb, yb, label = "GRupo 2")
+plt.legend()
+
+plt.show()
+
+
+
+
